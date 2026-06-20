@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://c6puh4foh8o0"]
+[gd_scene format=3 uid="uid://bggsxdv7fdbd6"]
 
-[ext_resource type="Script" uid="uid://b545618nqusw5" path="res://main_gui.gd" id="1_2kyjl"]
+[ext_resource type="Script" uid="uid://b545618nqusw5" path="res://registration_gui/registration_gui.gd" id="1_cpxu4"]
 
 [node name="RegistrationGui" type="Control" unique_id=755289694]
 layout_mode = 3
@@ -12,7 +12,7 @@ offset_top = 8.0
 offset_right = -15.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_2kyjl")
+script = ExtResource("1_cpxu4")
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=263584934]
 layout_mode = 1
