@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://gy4w4s3cxirw"]
+
+[ext_resource type="Script" uid="uid://dqrb8lla0ous3" path="res://flag_gui/flag_gui.gd" id="1_a65up"]
+
+[node name="FlagGui" type="Control" unique_id=709271385]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_a65up")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=2023608804]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="FlagLabel" type="Label" parent="CenterContainer" unique_id=2007693446]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.5004143, 0.7645587, 0.1858758, 1)
+theme_override_colors/font_outline_color = Color(0.77776676, 0.61458564, 0.1397962, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 32
+text = "Flag"
