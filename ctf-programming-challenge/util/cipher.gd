@@ -9,6 +9,10 @@ static func xor(key: PackedByteArray, msg: PackedByteArray) -> PackedByteArray:
 		var k := key[key_idx]
 		var e = k ^ c
 		
+		key_idx += 1
+		if key_idx >= len(key):
+			key_idx = 0
+		
 		xored.append(e)
 	
 	return xored
