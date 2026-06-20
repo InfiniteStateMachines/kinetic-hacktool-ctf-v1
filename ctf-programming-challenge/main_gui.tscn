@@ -30,7 +30,8 @@ theme_override_constants/separation = -291
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_colors/default_color = Color(1, 1, 1, 0.34901962)
-text = "⠀⠀⠀⠀⣠⣤⣶⣶⣶⣤⣄⡀⠀
+bbcode_enabled = true
+text = "[pulse freq=0.15 color=#000000 ease=-1.0]⠀⠀⠀⠀⣠⣤⣶⣶⣶⣤⣄⡀⠀
 ⠀⠀⣴⣾⣿⣿⣿⣿⣿⣧⡀⠈⠢
 ⠀⣼⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀
 ⢰⡿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀
@@ -39,7 +40,7 @@ text = "⠀⠀⠀⠀⣠⣤⣶⣶⣶⣤⣄⡀⠀
 ⠀⣿⣷⣶⣾⡿⠁⠙⣄⣀⣀⣠⡀
 ⠀⠙⠙⢿⡿⣷⣶⣤⣿⣿⡿⠿⠃
 ⠀⠀⠀⠺⡏⡏⡏⡏⡏⠉⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠁⠁⠀⠀⠀⠀⠀"
+⠀⠀⠀⠀⠀⠀⠁⠁⠀⠀⠀⠀⠀[/pulse]"
 scroll_active = false
 vertical_alignment = 1
 
@@ -47,7 +48,8 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_colors/default_color = Color(1, 1, 1, 0.34901962)
-text = "By Kinetic"
+bbcode_enabled = true
+text = "[color=#00C1B6][pulse freq=0.15 color=#000000 ease=-1.0]By Kinetic[/pulse][/color]"
 scroll_active = false
 vertical_alignment = 2
 
