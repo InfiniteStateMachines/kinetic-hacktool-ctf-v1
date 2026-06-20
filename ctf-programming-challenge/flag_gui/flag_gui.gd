@@ -4,4 +4,5 @@ extends Control
 var flag_label: RichTextLabel = %FlagLabel
 
 func set_flag_label(string: String) -> void:
-	flag_label.text = string
+	var effect: String = "[wave]{0}[/wave]"
+	flag_label.text = effect.format([string])

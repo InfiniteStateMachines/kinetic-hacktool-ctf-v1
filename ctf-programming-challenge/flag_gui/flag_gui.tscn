@@ -27,6 +27,7 @@ theme_override_colors/default_color = Color(0.21933126, 0.6751363, 0, 1)
 theme_override_colors/font_outline_color = Color(0.77776676, 0.61458564, 0.1397962, 1)
 theme_override_constants/outline_size = 1
 theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
 text = "Flag"
 fit_content = true
 horizontal_alignment = 1
