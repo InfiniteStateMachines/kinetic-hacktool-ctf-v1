@@ -8,10 +8,25 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 15.0
+offset_top = 8.0
 offset_right = -15.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_2kyjl")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=263584934]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="TitleLabel" type="Label" parent="CenterContainer" unique_id=949502476]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8336143, 0.678757, 0.06989014, 1)
+theme_override_colors/font_outline_color = Color(0.927149, 0.053906552, 0.0336613, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 44
+text = "HackTool"
 
 [node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=209478440]
 layout_mode = 1
