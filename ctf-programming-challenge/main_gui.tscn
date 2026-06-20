@@ -28,6 +28,9 @@ theme_override_constants/separation = 34
 
 [node name="RegistrationLabel" type="Label" parent="VBoxContainer/HBoxContainer" unique_id=264594334]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.25509253, 0.5738076, 0.9698078, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
 theme_override_font_sizes/font_size = 24
 text = "Register Product"
 
@@ -42,4 +45,10 @@ alignment = 2
 
 [node name="RegisterBtn" type="Button" parent="VBoxContainer/HBoxContainer2" unique_id=135635899]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.96478564, 0.8512834, 0.014679494, 1)
+theme_override_colors/font_focus_color = Color(0.6063333, 0.86641955, 0.12268133, 1)
+theme_override_colors/font_pressed_color = Color(0.6822202, 0.59984666, 0.002435801, 1)
+theme_override_colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 20
 text = "Register"
