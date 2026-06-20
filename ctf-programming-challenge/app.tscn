@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://bn7gr6c38ikh3" path="res://app.gd" id="1_i4801"]
 [ext_resource type="PackedScene" uid="uid://bggsxdv7fdbd6" path="res://registration_gui/registration_gui.tscn" id="1_j6dmo"]
 [ext_resource type="PackedScene" uid="uid://gy4w4s3cxirw" path="res://flag_gui/flag_gui.tscn" id="3_d7sxu"]
+[ext_resource type="PackedScene" uid="uid://nm5hafq31ewj" path="res://confetti_particles.tscn" id="4_d7sxu"]
 
 [node name="App" type="Node" unique_id=1329002076]
 script = ExtResource("1_i4801")
@@ -11,3 +12,8 @@ script = ExtResource("1_i4801")
 
 [node name="FlagGui" parent="." unique_id=709271385 instance=ExtResource("3_d7sxu")]
 visible = false
+
+[node name="ConfettiParticles" parent="." unique_id=1552888279 instance=ExtResource("4_d7sxu")]
+position = Vector2(319, 331)
+emitting = false
+one_shot = true

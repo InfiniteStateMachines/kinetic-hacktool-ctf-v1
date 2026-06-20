@@ -6,6 +6,9 @@ var registration_gui: Control = $RegistrationGui
 @onready 
 var flag_gui: Control = $FlagGui
 
+@onready
+var confetti_cannon: CPUParticles2D = $ConfettiParticles
+
 var flag = [85,15,80,87,73,69,71,93,93,79,67,18,11,95,93,10,2,75,94,93,84,23,6,89,26,89,3,77,64,27,10,10,73,66,82,20,92,16,28,87,2,82,3,5,80]
 var secret_hash = "9e9353ef7b493ad1d37dcb9ef303792eb2b891590c1dbe7f1528c68a4f7e4b39"
 
@@ -22,6 +25,7 @@ func _on_register_button_pressed(registration_value: String) -> void:
 		flag_gui.set_flag_label(flag)
 		registration_gui.set_visible(false)
 		flag_gui.set_visible(true)
+		confetti_cannon.emitting = true
 
 func validate_registration(registration_value) -> bool:
 	var hash_ctx = HashingContext.new()
