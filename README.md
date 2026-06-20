@@ -16,8 +16,14 @@ menu commands to export to a format you would like.
 To run the web version, you will need to run a HTTP server.  The easiest
 method to do that is with Python.  Open a terminal and navigate to the
 directory where the web version is located on your machine.  Run the command
-`python -m http.server` and if you want to run on a specific port then do
-`python -m http.server <PORT>` where `<PORT>` is the port number you wish to 
+
+`python -m http.server` 
+
+and if you want to run on a specific port then do
+
+`python -m http.server <PORT>` 
+
+where `<PORT>` is the port number you wish to 
 run on.
 
 ### Running the Windows Binary
