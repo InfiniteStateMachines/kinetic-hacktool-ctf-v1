@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://c6puh4foh8o0"]
+
+[node name="RegistrationGui" type="Control" unique_id=755289694]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 15.0
+offset_right = -15.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=833888179]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -54.0
+offset_bottom = 54.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 32
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=639535461]
+layout_mode = 2
+theme_override_constants/separation = 34
+
+[node name="RegistrationLabel" type="Label" parent="VBoxContainer/HBoxContainer" unique_id=264594334]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Register Product"
+
+[node name="RegistrationTextInput" type="LineEdit" parent="VBoxContainer/HBoxContainer" unique_id=1714563737]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Enter Some text"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer" unique_id=1185572800]
+layout_mode = 2
+alignment = 2
+
+[node name="RegisterBtn" type="Button" parent="VBoxContainer/HBoxContainer2" unique_id=135635899]
+layout_mode = 2
+text = "Register"
