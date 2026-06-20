@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://nm5hafq31ewj"]
+
+[sub_resource type="Gradient" id="Gradient_760ex"]
+colors = PackedColorArray(0.28760013, 0.5116784, 0.9877537, 1, 0.7470769, 0.5476552, 1.540184e-06, 1)
+
+[node name="ConfettiParticles" type="CPUParticles2D" unique_id=1552888279]
+rotation = -1.5707964
+amount = 100
+lifetime = 10.0
+explosiveness = 0.85
+randomness = 1.0
+lifetime_randomness = 0.4
+emission_shape = 2
+emission_sphere_radius = 17.45
+gravity = Vector2(0, 245)
+initial_velocity_min = 100.0
+initial_velocity_max = 500.0
+angle_min = -229.5
+scale_amount_min = 4.0
+scale_amount_max = 8.0
+color_initial_ramp = SubResource("Gradient_760ex")
