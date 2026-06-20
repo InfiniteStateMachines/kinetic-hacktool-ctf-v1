@@ -75,7 +75,7 @@ text = "Register Product"
 [node name="RegistrationTextInput" type="LineEdit" parent="VBoxContainer/HBoxContainer" unique_id=1714563737]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Enter Some text"
+placeholder_text = "Enter Some text"
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer" unique_id=1185572800]
 layout_mode = 2
