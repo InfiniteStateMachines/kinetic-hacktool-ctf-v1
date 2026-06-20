@@ -25,5 +25,5 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0.5004143, 0.7645587, 0.1858758, 1)
 theme_override_colors/font_outline_color = Color(0.77776676, 0.61458564, 0.1397962, 1)
 theme_override_constants/outline_size = 1
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 24
 text = "Flag"
