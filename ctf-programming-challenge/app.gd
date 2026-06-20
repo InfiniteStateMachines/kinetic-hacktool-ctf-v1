@@ -14,6 +14,8 @@ var secret_hash = "9e9353ef7b493ad1d37dcb9ef303792eb2b891590c1dbe7f1528c68a4f7e4
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	set_process(false)
+	set_physics_process(false)
 	flag_gui.set_visible(false)
 	
 	registration_gui.set_visible(true)
