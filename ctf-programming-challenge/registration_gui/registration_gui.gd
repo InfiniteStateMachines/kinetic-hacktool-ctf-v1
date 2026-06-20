@@ -15,5 +15,4 @@ func _ready() -> void:
 func _on_RegisterBtn_pressed() -> void:
 	var registration_text: String = registration_text_input.text.strip_edges()
 	if registration_text:
-		print(registration_text)
 		register_button_pressed.emit(registration_text)
