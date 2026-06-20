@@ -11,19 +11,23 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_a65up")
 
-[node name="CenterContainer" type="CenterContainer" parent="." unique_id=2023608804]
+[node name="FlagLabel" type="RichTextLabel" parent="." unique_id=455594623]
+unique_name_in_owner = true
 layout_mode = 1
-anchors_preset = 15
+anchors_preset = 14
+anchor_top = 0.5
 anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_bottom = 0.5
+offset_top = -17.0
+offset_bottom = 17.0
 grow_horizontal = 2
 grow_vertical = 2
-
-[node name="FlagLabel" type="Label" parent="CenterContainer" unique_id=2007693446]
-unique_name_in_owner = true
-layout_mode = 2
-theme_override_colors/font_color = Color(0.5004143, 0.7645587, 0.1858758, 1)
+focus_mode = 2
+theme_override_colors/default_color = Color(0.21933126, 0.6751363, 0, 1)
 theme_override_colors/font_outline_color = Color(0.77776676, 0.61458564, 0.1397962, 1)
 theme_override_constants/outline_size = 1
-theme_override_font_sizes/font_size = 24
+theme_override_font_sizes/normal_font_size = 24
 text = "Flag"
+fit_content = true
+horizontal_alignment = 1
+selection_enabled = true
